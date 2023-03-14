@@ -4,6 +4,7 @@
 }
 body{
     background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header */
@@ -19,29 +20,68 @@ header{
 
 #title{
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     display: inline;
 }
-
-/* Buttons */
-#buttons{
+/* Main */
+main{
+    margin-top: 45px;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: #fff;
+    padding: 8px 50px;
+    border-radius: 2%;
+}
+/* Buttons */
+#layer{
     margin-bottom: 2px solid gray;
+    padding: 6px;
+    border-bottom: 2px solid gray;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+.button{
+    border-radius: 4px;
+    padding: 5px 12px;
+
 }
 
 #addtask{
     color: #fff;
     background-color: blue;
+    border: 2px solid blue;
 }
 
 #addsec{
     color: gray;
     background-color: #fff;
     margin: 3px solid gray;
-    border: 3px solid gray;
-    padding: 4px;
-    border-radius: 2px;
+    border: 2px solid gray;
+
+}
+
+/* corpo principale */
+.check{
+    color: green;
+    border: 1px solid green;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.editorial{
+    background-color: blue;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 4px 8px;
+    border-radius: 8px; 
+}
+
+.objectives{
+    font-size: 22px;
 }
 
 
