@@ -21,7 +21,7 @@ header{
 #title{
     font-size: 30px;
     font-weight: 800;
-    display: inline;
+    vertical-align: middle;
 }
 /* Main */
 main{
@@ -29,7 +29,7 @@ main{
     margin-left: 20%;
     margin-right: 20%;
     background-color: #fff;
-    padding: 8px 50px;
+    padding: 8px 50px 50px;
     border-radius: 2%;
 }
 /* Buttons */
@@ -71,17 +71,47 @@ main{
     margin-right: 10px;
 }
 
-.editorial{
-    background-color: blue;
-    color: #fff;
+.cross{
+    color: red;
+    border: 1px solid red;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 10px; 
+}
+
+.category{
     font-size: 12px;
     margin-left: 8px;
     padding: 4px 8px;
-    border-radius: 8px; 
+    border-radius: 8px;
+    color: #fff
+}
+#editorial{
+    background-color: blue;
+; 
+}
+
+#q1{
+    background-color: purple;
 }
 
 .objectives{
     font-size: 22px;
 }
 
+#recruiting{
+    background-color: green;
+}
 
+#mobile{
+    background-color: orange;
+}
+
+#website{
+    background-color: palevioletred;
+}
+
+#sales{
+    background-color: yellowgreen;
+}
